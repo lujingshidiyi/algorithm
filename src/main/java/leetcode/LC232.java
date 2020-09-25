@@ -1,3 +1,5 @@
+package leetcode;
+
 import java.util.Stack;
 
 /**
@@ -14,7 +16,7 @@ public class LC232 {
 //    empty() -- 返回队列是否为空。
 //
 //    示例:
-//    MyQueue queue = new MyQueue();
+//    leetcode.MyQueue queue = new leetcode.MyQueue();
 //
 //    queue.push(1);
 //    queue.push(2);

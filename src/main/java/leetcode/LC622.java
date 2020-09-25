@@ -1,3 +1,5 @@
+package leetcode;
+
 /**
  * @author jlu3
  * @date 2020/9/17
@@ -11,7 +13,7 @@ public class LC622 {
      * <p>
      * 你的实现应该支持如下操作：
      * <p>
-     * MyCircularQueue(k): 构造器，设置队列长度为 k 。
+     * leetcode.MyCircularQueue(k): 构造器，设置队列长度为 k 。
      * Front: 从队首获取元素。如果队列为空，返回 -1 。
      * Rear: 获取队尾元素。如果队列为空，返回 -1 。
      * enQueue(value): 向循环队列插入一个元素。如果成功插入则返回真。
@@ -22,7 +24,7 @@ public class LC622 {
      * <p>
      * 示例：
      * <p>
-     * MyCircularQueue circularQueue = new MyCircularQueue(3); // 设置长度为 3
+     * leetcode.MyCircularQueue circularQueue = new leetcode.MyCircularQueue(3); // 设置长度为 3
      * circularQueue.enQueue(1);  // 返回 true
      * circularQueue.enQueue(2);  // 返回 true
      * circularQueue.enQueue(3);  // 返回 true
